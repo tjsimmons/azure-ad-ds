@@ -13,7 +13,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "azure_ad_ds_rg" {
   name     = "azure-ad-ds-rg"
-  location = "westus2"
+  location = "southcentralus"
 }
 
 resource "azurerm_virtual_network" "azure_ad_ds_vnet" {
